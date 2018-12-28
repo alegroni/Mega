@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- SITE TITLE -->
+  <title>GOMASSALIN | CUPONERA</title>
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../fonts/eurostile.css">
+  <link rel="stylesheet" href="../css/linearicons.css">
+  <link rel="stylesheet" href="../css/ionicons.min.css">
+  <link rel="stylesheet" href="../css/preset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style_cuponera.css">
+
+
+</head>
+
+<body data-spy="scroll" class="body-cuponera">
+  <!--Loader-->
+
+  <div class="loading">
+    <div class="loading-center">
+      <div class="loading-center-absolute">
+        <div class="object object_one"></div>
+        <div class="object object_two"></div>
+        <div class="object object_three"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container container-cuponera">
+    <img class="logo" src="../img/gomassalin-w.png" alt="">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="box-cuponera">
+          <h4>QUEM&Aacute; EL C&Oacute;DIGO DE TU CONSUMIDOR DE BLACK MENTHOL</h4>
+          <form action="" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ingres&aacute; el c&oacute;digo del talonario">
+              <p class="codigo-error">El c&oacute;digo ingresado no es v&aacute;lido</p>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ingres&aacute; el c&oacute;digo del cliente">
+              <p class="codigo-error">El c&oacute;digo ingresado no es v&aacute;lido</p>
+            </div>
+            <button type"submit">VALIDAR</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+
+        <div class="box-cuponera">
+          <h4>CONOC&Eacute; TUS CANJES</h4>
+          <form action="" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Ingres&aacute; el c&oacute;digo de talonario:">
+              <p class="codigo-error">El c&oacute;digo ingresado no es v&aacute;lido</p>
+            </div>
+            <div class="form-group">
+              <input type="date" type="date" class="form-control" >
+              <p class="codigo-error">Debe ingresar una fecha</p>
+            </div>
+            <button type"submit">CONSULTAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer-cuponera">
+   <p class="footer">Información comercial. Prohibida su exhibición a consumidores.</p>
+
+  </footer>
+  <!-- END FOOTER -->
+
+
+  <!--MODAL CODIGO UTILIZADO -->
+  <div class="modal fade modal-center " id="code-burn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content modal-cuponera">
+        <div class="modal-body">
+          <img src="../img/ticket-burn.png" alt="">
+          <h4>ESTE C&Oacute;DIGO YA FUE QUEMADO</h4>
+          <p>Record&aacute; que el c&oacute;digo del cliente puede ser canjeado una sola vez.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-out" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END MODAL CODIGO UTILIZADO -->
+
+  <!--MODAL CODIGO OK -->
+  <div class="modal fade modal-center " id="code-ok" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content modal-cuponera">
+        <div class="modal-body">
+          <img src="../img/check-ticket.png" alt="">
+          <h4>C&Oacute;DIGO INGRESADO CON &Eacute;XITO</h4>
+          <p>Record&aacute; que el c&oacute;digo del cliente puede ser canjeado una sola vez.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-out" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END MODAL CODIGO OK -->
+
+  <!--MODAL LISTADO DE TICKETS -->
+   <div id="printThis">
+    <div class="modal fade modal-center " id="code-tickets" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content modal-cuponera">
+          <div class="modal-body">
+            <h4>ESTE ES TU LISTADO DE C&Oacute;DIGOS QUEMADO</h4>
+            <div class="tabla-cupones">
+              <table class="table table-responsive table-striped">
+                <thead>
+                  <tr>
+                    <th>Código del Cliente</th>
+                    <th>Fecha</th>
+                    <th>Valor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                  <tr>
+                    <td>$codigo</td>
+                    <th>$fecha</th>
+                    <th>$valor</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button data-dismiss="modal">Cerrar</button>
+            <button class="btn-fill" id="btnPrint" type="button">Imprimir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END MODAL LISTADO DE TICKETS -->
+
+  <!-- Scripts -->
+
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.waypoints.min.js"></script>
+  <script type="text/javascript" src="../js/plugins.js"></script>
+  <script type="text/javascript" src="../js/custom-animations.js"></script>
+  <script type="text/javascript" src="../js/theme.js"></script>
+
+
+   <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#code-burn').modal('show');
+        $('#code-ok').modal('show');
+        $('#code-tickets').modal('show');
+    });
+  </script>
+  <script>
+    document.getElementById("btnPrint").onclick = function () {
+
+     printElement(document.getElementById("printThis"));
+
+    }
+
+    function printElement(elem) {
+        var domClone = elem.cloneNode(true);
+
+        var $printSection = document.getElementById("printSection");
+
+        if (!$printSection) {
+            var $printSection = document.createElement("div");
+            $printSection.id = "printSection";
+            document.body.appendChild($printSection);
+        }
+
+        $printSection.innerHTML = "";
+        $printSection.appendChild(domClone);
+
+
+        window.print();
+    }
+  </script>
+
+</body>
+
+</html>

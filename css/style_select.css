@@ -1,0 +1,104 @@
+.custom-select {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  width: 100%;
+  transition: background-color 0.3s;
+  background-color: white;;
+  border-radius: 3px;
+  border: 0.5px solid rgba(0, 171, 228, 0.1);
+  font-size: 16px;
+  height:48px;
+}
+.custom-select:hover, .custom-select:focus{
+  outline: none !important;
+  box-shadow: 0 0 10px rgba(0, 171, 228, 0.8);
+  border-color: transparent;
+  transition: 0.4s;;
+}
+
+.custom-select:after {
+  content: " ";
+  display: block;
+  right: 10px;
+  top: 20px;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  border-top: 7px solid #00ABE4;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  /* pointer-events: none; */
+}
+.is-ie8 .custom-select:after, .is-ie9 .custom-select:after {
+  display: none;
+}
+.custom-select select {
+  padding: 0 30px 0 9px;
+  width: 100%;
+  height: 100%;
+  color: #3a3a3a;
+  border: 0.5px solid rgba(0, 171, 228, 0.1);
+  border-radius: 0;
+  box-shadow: none;
+  box-shadow: 0 0 10px rgba(0, 171, 228, 0.8);
+  background-color: transparent;
+  background-image: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family:  'Montserrat', sans-serif;
+}
+.custom-select select:focus {
+  outline: none;
+}
+.is-ie8 .custom-select select, .is-ie9 .custom-select select {
+  padding: 0 0 0 9px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .custom-select select::-ms-expand {
+    display: none;
+  }
+  .custom-select select:focus::-ms-value {
+    background: transparent;
+    color: #222;
+  }
+}
+.custom-select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+@-moz-document url-prefix() {
+  .custom-select select {
+    width: 120%;
+    width: calc(100% + 43px);
+    padding: 0 54px 0 5px;
+  }
+}
+
+.custom-select::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.custom-select::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.custom-select::-webkit-scrollbar-thumb
+{
+	background-color: #F90;
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}

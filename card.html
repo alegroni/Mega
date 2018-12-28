@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <!-- META -->
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <meta name="description" content="Faded | App Landing Page">
+ <meta name="author" content="droitlab">
+ <!-- SITE TITLE -->
+ <title>MEGA | HOME</title>
+ <!-- STYLESHEETS -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="fonts/eurostile.css">
+ <link rel="stylesheet" href="css/linearicons.css">
+ <link rel="stylesheet" href="css/ionicons.min.css">
+ <link rel="stylesheet" href="css/magnific-popup.css">
+ <link rel="stylesheet" href="css/owl.carousel.css">
+ <link rel="stylesheet" href="css/preset.css">
+ <link rel="stylesheet" href="css/scroll-animation.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/style_mega.css">
+ <link rel="stylesheet" id="triggerColor" href="css/triggerPlate/color0.css">
+ <link rel="stylesheet" id="grad_triggerColor" href="css/triggerPlate/gradient/color-0.css">
+ <!-- FAVICON -->
+ <link rel="shortcut icon" type="image/x-icon" href="img/Favicon_app.png">
+ <style type="text/css">
+  .chat ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+  }
+
+  .chat ul li {
+   margin: 45px 0 0 0;
+   font-weight: 300;
+  }
+
+  .chat ul li a.user {
+   margin: -30px 0 0 0;
+   display: block;
+   color: #333;
+  }
+
+  .chat ul li a.user img {
+   width: 65px;
+   height: 65px;
+   border-radius: 50%;
+   background-color: #f3f3f3;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .chat ul li .date {
+   font-size: 14px;
+   color: #a6a6a6;
+  }
+
+  .chat ul li .message {
+   display: block;
+   padding: 10px;
+   position: relative;
+   color: #fff;
+   font-size: 15px;
+   background-color: #2ECC71;
+   border-radius: 3px;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .chat ul li .message:before {
+   content: '';
+   position: absolute;
+   border-top: 16px solid rgba(0, 0, 0, 0.15);
+   border-left: 16px solid transparent;
+   border-right: 16px solid transparent;
+  }
+
+  .chat ul li .message:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   border-top: 17px solid #2ECC71;
+   border-left: 17px solid transparent;
+   border-right: 17px solid transparent;
+  }
+
+  .chat ul li .message.blur p {
+   -webkit-filter: blur(3px);
+   -moz-filter: blur(3px);
+   -o-filter: blur(3px);
+   -ms-filter: blur(3px);
+   filter: blur(3px);
+  }
+
+  .chat ul li .message.blur .hider {
+   opacity: 1;
+   z-index: 1;
+  }
+
+  .chat ul li .message p {
+   margin: 0;
+   padding: 0;
+   transition: all 0.1s;
+  }
+
+  .chat ul li .message .hider {
+   opacity: 0;
+   z-index: -1;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   margin: -10px;
+   text-align: center;
+   cursor: pointer;
+   transform-style: preserve-3d;
+   transition: all 0.1s;
+  }
+
+  .chat ul li .message .hider span {
+   display: block;
+   position: relative;
+   top: 50%;
+   font-size: 16px;
+   transform: translateY(-50%);
+  }
+
+  .chat ul li.other a.user {
+   float: right;
+  }
+
+  .chat ul li.other .date {
+   float: right;
+   margin: -20px 10px 0 0;
+  }
+
+  .chat ul li.other .message {
+   margin: 0 90px 0 0;
+  }
+
+  .chat ul li.other .message:before {
+   margin: -9px -16px 0 0;
+   right: 0;
+  }
+
+  .chat ul li.other .message:after {
+   content: '';
+   right: 0;
+   margin: 0 -15px 0 0;
+  }
+
+  .chat ul li.you a.user {
+   float: left;
+  }
+
+  .chat ul li.you .date {
+   float: left;
+   margin: -20px 0 0 10px;
+  }
+
+  .chat ul li.you .message {
+   margin: 0 0 0 90px;
+  }
+
+  .chat ul li.you .message:before {
+   margin: -9px 0 0 -16px;
+   left: 0;
+  }
+
+  .chat ul li.you .message:after {
+   content: '';
+   left: 0;
+   margin: 0 0 0 -15px;
+  }
+ </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+ <!--Loader-->
+ <div class="loading">
+  <div class="loading-center">
+   <div class="loading-center-absolute">
+    <div class="object object_one"></div>
+    <div class="object object_two"></div>
+    <div class="object object_three"></div>
+   </div>
+  </div>
+ </div>
+
+ <!-- MAIN NAV -->
+ <nav class="navbar navbar-fixed-top">
+  <div class="container">
+   <div class="row">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+     <a class="navbar-brand" href="index-mega-v2.html">
+            <img src="img/logo.png" alt="logo">
+
+          </a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="width: 100%; text-align: right;">
+     <ul class="nav navbar-nav navbar-right smoothscroll">
+      <li><a href="#team">Desaf&iacute;os</a></li>
+      <li><a href="#sec-mega">Mega</a></li>
+      <li><a href="#pricing">Tips de Kiosquero</a></li>
+      <li><a href="#screenshots">Portfolio</a></li>
+      <li><a href="#">Beneficios</a></li>
+      <li><a href="#faq">Faq's</a></li>
+      <li><a href="#">Tutoriales</a></li>
+      <li><a href="#">Perfil</a></li>
+
+     </ul>
+    </div>
+   </div>
+  </div>
+ </nav>
+ <!-- END MAIN NAV -->
+
+ <section style="padding:160px 0;" class="bg-gradient-vertical-light">
+
+  <div class="row">
+   <div style="display:block; margin:0 auto" class="col-xs-4">
+    <div class="chat">
+     <ul>
+
+      <li class="other">
+       <a class="user" href="#"><img alt="" src="https://s3.amazonaws.com/uifaces/faces/twitter/toffeenutdesign/128.jpg" /></a>
+       <div class="date">
+        5 minutes ago
+       </div>
+       <div class="message">
+        <div class="hider">
+         <span>Click to read</span>
+        </div>
+        <p>
+         Modi ratione aliquid non. Et porro deserunt illum sed velit necessitatibus. Quis fuga et et fugit consequuntur. Et veritatis fugiat veniam pariatur maxime iusto aperiam.
+        </p>
+       </div>
+      </li>
+      <li class="you">
+       <a class="user" href="#"><img alt="" src="https://s3.amazonaws.com/uifaces/faces/twitter/igorgarybaldi/128.jpg" /></a>
+       <div class="date">
+        7 minutes ago
+       </div>
+       <div class="message">
+        <div class="hider">
+         <span>Click to read</span>
+        </div>
+        <p>
+         Provident impedit atque nemo culpa et modi molestiae. Error non dolorum voluptas non a. Molestiae et nobis nisi sed.
+        </p>
+       </div>
+      </li>
+      <li class="other">
+       <a class="user" href="#"><img alt="" src="https://s3.amazonaws.com/uifaces/faces/twitter/toffeenutdesign/128.jpg" /></a>
+       <div class="date">
+        8 minutes ago
+       </div>
+       <div class="message">
+        <div class="hider">
+         <span>Click to read</span>
+        </div>
+        <p>
+         Id vel ducimus perferendis fuga excepturi nulla. Dolores dolores amet et laborum facilis. Officia magni ut non autem et qui incidunt. Qui similique fugit vero porro qui cupiditate.
+        </p>
+       </div>
+      </li>
+      <li class="you">
+       <a class="user" href="#"><img alt="" src="https://s3.amazonaws.com/uifaces/faces/twitter/igorgarybaldi/128.jpg" /></a>
+       <div class="date">
+        10 minutes ago
+       </div>
+       <div class="message">
+        <div class="hider">
+         <span>Click to read</span>
+        </div>
+        <p>
+         Provident impedit atque nemo culpa et modi molestiae. Error non dolorum voluptas non a. Molestiae et nobis nisi sed.
+        </p>
+       </div>
+      </li>
+      <li class="you">
+       <a class="user" href="#"><img alt="" src="https://s3.amazonaws.com/uifaces/faces/twitter/igorgarybaldi/128.jpg" /></a>
+       <div class="date">
+        10 minutes ago
+       </div>
+       <div class="message">
+        <div class="hider">
+         <span>Click to read</span>
+        </div>
+        <p>
+         Est ut at eum sed perferendis ea hic. Tempora perspiciatis magnam aspernatur explicabo ea. Sint atque quod.
+        </p>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+
+
+ </section>
+
+
+
+
+
+ <!-- END FOOTER -->
+ <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+ <!-- Scripts -->
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBumN1FxU0vF8HVI_qy9yFlwcZ4Wop_RtY"></script>
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+ <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+ <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+ <script type="text/javascript" src="js/plugins.js"></script>
+ <script type="text/javascript" src="js/custom-animations.js"></script>
+ <script type="text/javascript" src="js/theme.js"></script>
+ <script type="text/javascript" src="js/counterup.js"></script>
+ <script type="text/javascript" src="js/events.js"></script>
+ <script type="text/javascript">
+  $('.card').click(function() {
+   var b = $(this);
+   // console.log(b);
+   b.removeClass('card-hover');
+   b.addClass('card-hover');
+   return false;
+  });
+ </script>
+
+
+
+
+
+</body>
+
+</html>

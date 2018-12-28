@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('../fonts/DINNextLTPro-Regular.woff2') format('woff2'),
+        url('../fonts/DINNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next LT Pro';
+    src: url('../fonts/DINNextLTPro-BoldCondensed.woff2') format('woff2'),
+        url('../fonts/DINNextLTPro-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.body-cuponera{
+  background-image:url('../img/cuponera_fondo_mobile.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-color: black;
+  font-family: 'DIN Next LT Pro', Arial;
+  font-weight: normal;
+}
+.body-cuponera .loading {background-color:black;}
+.body-cuponera .loading .object {background-color:rgb(68, 180, 136);}
+.container-cuponera {padding-bottom: 120px;}
+.container-cuponera .logo {display: block;margin:50px auto 36px;width:180px;max-width: 100%;}
+
+.box-cuponera {border:1px solid green;padding:25px;margin-bottom:38px;background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    -webkit-border-image: -webkit-linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+    -o-border-image: -o-linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+    border-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+    border-image-slice: 1;
+    /* box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.56);
+    color:rgb(68, 180, 136) */
+}
+.box-cuponera .codigo-error, .box-cuponera h4 {color:#8EE3C3}
+.box-cuponera h4{font-size: 21px;text-align: center;font-weight: bold;min-height: 46px;}
+.box-cuponera .codigo-error {margin:5px 0;}
+.box-cuponera .form-group {margin-bottom:0;}
+.box-cuponera .form-control:focus {
+  border-color: rgb(68, 180, 136);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(68, 180, 136,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(68, 180, 136,.6);
+}
+.box-cuponera button {display: block;width: 100%;background: #2EA27B;
+border: 0.5px solid #1E3F34;
+box-sizing: border-box;
+box-shadow: 1px 1px 5px rgba(46, 162, 123, 0.4);
+border-radius: 4px;
+height:32px;
+transition:.3s
+}
+.box-cuponera button:hover {box-shadow:2px 5px 10px rgba(68, 180, 136,.3);filter: brightness(1.2);}
+
+.footer-cuponera {position: fixed;bottom:0;width:100%;background-color:black;}
+.footer-cuponera p{margin:0 auto;font-size: 12px;}
+
+
+/*** MODAL ***/
+
+.modal-cuponera {
+  border:1px solid green;padding:25px;margin-bottom:38px;background-color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+  -webkit-border-image: -webkit-linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+  -o-border-image: -o-linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+  border-image: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(68, 180, 136) 100%);
+  border-image-slice: 1;
+  background: #000000;
+  background: -moz-linear-gradient(top, #000000 0%, #092018 100%);
+  background: -webkit-linear-gradient(top, #000000 0%,#092018 100%);
+  background: linear-gradient(to bottom, #000000 0%,#092018 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#092018',GradientType=0 );
+  box-shadow:0px 0px 100px rgba(21, 136, 98, 0.1);
+  text-align: center;
+  padding-top:0;
+  color:#8EE3C3;
+}
+.modal-cuponera{padding:10px;}
+.modal-cuponera .modal-body {padding:0;margin-bottom:40px;}
+.modal-cuponera .modal-body img {margin-top:36px;margin-bottom:44px}
+.modal-cuponera .modal-body h4{margin-top:0;font-size: 32px;font-weight: bold;}
+.modal-cuponera .modal-body p{text-align: left;font-size: 22px;margin:0;}
+.modal-cuponera .modal-footer {border:none;}
+.modal-cuponera .modal-footer {padding:0px;}
+.modal-cuponera button {border:none;background:inherit;color:#8EE3C3;font-size: 18px;padding:10px 0 10px 10px;}
+.modal-cuponera button.btn-fill {
+  background: #2EA27B;
+  border: 0.5px solid #1E3F34;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px rgba(46, 162, 123, 0.4);
+  border-radius: 4px;
+  height:32px;
+  transition:.3s;
+  padding:0 10px;
+  margin-left:10px;
+}
+.modal-cuponera button.btn-fill:hover {box-shadow:2px 5px 10px rgba(68, 180, 136,.3);filter: brightness(1.2);}
+.tabla-cupones {background-color: inherit;}
+.tabla-cupones .table-responsive{border:none;}
+.tabla-cupones thead {color:#2EA27B;background-color: inherit;}
+.tabla-cupones thead tr th {border-bottom:2px solid #8EE3C3;}
+.tabla-cupones tr th {text-align: center;}
+.tabla-cupones tbody {color:#2EA27B}
+.tabla-cupones .table>tbody>tr>th, .tabla-cupones .table>tbody>tr>td {font-weight: normal;border:none;}
+.tabla-cupones .table-striped>tbody>tr:nth-of-type(even){background-color: #1E3F34;}
+.tabla-cupones .table-striped>tbody>tr:nth-of-type(odd){background-color: inherit;}
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+
+.tabla-cupones {
+  max-height:200px;
+  overflow:auto;
+  }
+}
+
+@media print {
+  body * {
+    visibility:hidden;
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+  }
+  #printSection {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .tabla-cupones {
+  max-height:inherit;
+  overflow:hidden;
+  }
+  .tabla-cupones {background-color: #F0F6EB;}
+  .tabla-cupones thead {color:#1E3F34;background-color: white;}
+  .tabla-cupones thead tr th {border-bottom:2px solid #1E3F34;}
+  .tabla-cupones tbody {color:#6A7471}
+  .tabla-cupones .table-striped>tbody>tr:nth-of-type(even){background-color: #D2E5DE;}
+}
+
+
+@media screen and (min-width:768px) {
+  /* .box-cuponera {min-height:337px;} */
+  .box-cuponera .codigo-error{opacity: 1;}
+  .body-cuponera{background-size: cover;background-position-y:bottom;background-image:url('../img/cuponera_fondo_desktop.png');}
+  .container-cuponera{height:100vh;}
+  .container-cuponera .row {display: flex;justify-content: center;}
+  .footer-cuponera{padding:15px;box-shadow:2px -2px 10px rgba(46, 162, 123, 0.3)}
+
+  .modal-cuponera {width:426px;margin:auto;padding:10px 20px;}
+  .modal-cuponera .modal-body h4{font-size: 37px;}
+}
+
+@media screen and (min-width:1200px) {
+  .box-cuponera{background:inherit  }
+}
