@@ -2515,33 +2515,26 @@
           b.toggleClass("lnr-chevron-down-circle lnr-chevron-up-circle");
       });
   });
+  sendEvent = function(sel, step) {
+       $(sel).trigger('next.m.' + step);
+  };
+
+  $(window).on('load',function(){
+       $('#call-staff').modal('show');
+       $('#olafinal-kkaa').modal('show');
+  });
 </script>
+
 <script type="text/javascript">
   $('.desafio-web').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     items:1,
-})
+  })
 </script>
 
-<script  type="text/javascript">
 
-</script>
-
-<script type="text/javascript">
-sendEvent = function(sel, step) {
-     $(sel).trigger('next.m.' + step);
-};
-
-  $(window).on('load',function(){
-       // $('#ds-gt').modal('show');
-       // $('#whatsapp').modal('show');
-       $('#call-staff').modal('show');
-       $('#olafinal-kkaa').modal('show');
-       // $('#steps-staff').modal('show');
-  });
-</script>
 
 </body>
 
