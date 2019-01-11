@@ -1,328 +1,7 @@
 <? if($includes != "si") exit(); ?>
 
-<? if($_SESSION['miembro_tipo'] == "fsf"){?>
-<div class="modal fade modal-center modal-sorpresa" id="noviembre-fsf" tabindex="-1" role="dialog">
-     <div class="modal-dialog modal-mega" role="document">
-       <div class="modal-content">
-         <div class="modal-body">
-           <img src="img/gift-ganador.png" alt="">
-           <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL MES DE <strong>NOVIEMBRE</strong>. <span class="cyan">CADA UNO SE GAN&Oacute; UNA GIFTH CARD DE $3000.</span></strong></h4>
-           <div class="contenedor-tabla">
-             <table class="table table-responsive table-striped">
-               <thead>
-                 <tr>
-                   <th>Nombre</th>
-                   <th>Apellido</th>
-                 </tr>
-               </thead>
-               <tbody>
 
-                  <tr>	<th>	marcos	</th>	<th>	carranza	</th>	</tr>
-                  <tr>	<th>	GERMAN 	</th>	<th>	VEGA	</th>	</tr>
-                  <tr>	<th>	 YESICA ALEJANDRA	</th>	<th>	ALBARRACIN	</th>	</tr>
-                  <tr>	<th>	Hernan	</th>	<th>	Roche	</th>	</tr>
-                  <tr>	<th>	RUBEN OMAR	</th>	<th>	MONTESANTO	</th>	</tr>
-                  <tr>	<th>	HORACIO	</th>	<th>	ALVAREZ	</th>	</tr>
-                  <tr>	<th>	HUGO	</th>	<th>	ARANA	</th>	</tr>
-                  <tr>	<th>	HERNAN	</th>	<th>	SANTANA	</th>	</tr>
-                  <tr>	<th>	CRISTIAN	</th>	<th>	LUGONES	</th>	</tr>
-                  <tr>	<th>	WALTER	</th>	<th>	LENCINA	</th>	</tr>
-                  <tr>	<th>	JORGE OSCAR	</th>	<th>	USET	</th>	</tr>
-                  <tr>	<th>	RICARDO ARIEL	</th>	<th>	ENCINA LUQUE	</th>	</tr>
-                  <tr>	<th>	GUSTAVO ARIEL	</th>	<th>	DOMINGUEZ	</th>	</tr>
-                  <tr>	<th>	fabian	</th>	<th>	nieto	</th>	</tr>
-                  <tr>	<th>	Marcela Ceferina	</th>	<th>	Ramos	</th>	</tr>
-                  <tr>	<th>	NATALIA PAULA 	</th>	<th>	GARCIA 	</th>	</tr>
-                  <tr>	<th>	VALERIA ANDREA	</th>	<th>	MOTTOLA	</th>	</tr>
-                  <tr>	<th>	 MARCELA GRISELDA	</th>	<th>	MONGELOS	</th>	</tr>
-                  <tr>	<th>	JORGE EMILIO 	</th>	<th>	VERON	</th>	</tr>
-                  <tr>	<th>	ARIEL PEDRO	</th>	<th>	DATTO	</th>	</tr>
-                  <tr>	<th>	LUCAS	</th>	<th>	MARTIN	</th>	</tr>
-                  <tr>	<th>	LEONARDO 	</th>	<th>	CARTASEÑA	</th>	</tr>
-                  <tr>	<th>	PAOLA	</th>	<th>	RIOS	</th>	</tr>
-                  <tr>	<th>	VICENTE	</th>	<th>	FORLINI	</th>	</tr>
-                  <tr>	<th>	MARIO ALEJANDRO	</th>	<th>	ESTIGARRIBIA	</th>	</tr>
-                  <tr>	<th>	emiliano	</th>	<th>	giunchiglia	</th>	</tr>
-                  <tr>	<th>	MARIANO 	</th>	<th>	DELGADO	</th>	</tr>
-                  <tr>	<th>	RAFAEL HUGO	</th>	<th>	DE CAMILO	</th>	</tr>
-                  <tr>	<th>	Marcelo	</th>	<th>	Ortiz	</th>	</tr>
-                  <tr>	<th>	David	</th>	<th>	Villalba	</th>	</tr>
-                  <tr>	<th>	Lucas	</th>	<th>	Acosta	</th>	</tr>
-                  <tr>	<th>	Diego	</th>	<th>	Chavez	</th>	</tr>
-                  <tr>	<th>	Julio	</th>	<th>	Manfredi	</th>	</tr>
-                  <tr>	<th>	Daniel Ricardo	</th>	<th>	Gerez	</th>	</tr>
-                  <tr>	<th>	Sebastian	</th>	<th>	Porras	</th>	</tr>
-                  <tr>	<th>	Daniel  	</th>	<th>	Allende	</th>	</tr>
-                  <tr>	<th>	STEPHANIE 	</th>	<th>	DIAZ	</th>	</tr>
-                  <tr>	<th>	FABIAN DARIO	</th>	<th>	MONTESANTO	</th>	</tr>
-                  <tr>	<th>	MARCIO CARLOS	</th>	<th>	COSTA	</th>	</tr>
-                  <tr>	<th>	LUIS	</th>	<th>	JALUF	</th>	</tr>
-                  <tr>	<th>	ADRIAN	</th>	<th>	GAMBA	</th>	</tr>
-                  <tr>	<th>	DANIEL	</th>	<th>	ARDUH	</th>	</tr>
-                  <tr>	<th>	ROMINA	</th>	<th>	PALMA	</th>	</tr>
-                  <tr>	<th>	jose luis	</th>	<th>	figueroa	</th>	</tr>
-                  <tr>	<th>	ANDRES	</th>	<th>	Pace	</th>	</tr>
-                  <tr>	<th>	SERGIO	</th>	<th>	MEROI	</th>	</tr>
-                  <tr>	<th>	MATIAS ESTEBAN 	</th>	<th>	BALLARI	</th>	</tr>
-                  <tr>	<th>	JOSE	</th>	<th>	TEDESCO	</th>	</tr>
-                  <tr>	<th>	CRISTIAN	</th>	<th>	LLAVONA	</th>	</tr>
-                  <tr>	<th>	Ignacio	</th>	<th>	Carrera	</th>	</tr>
-                  <tr>	<th>	Maximiliano 	</th>	<th>	ORTIZ	</th>	</tr>
-                  <tr>	<th>	CAMILA 	</th>	<th>	HERNMANDEZ	</th>	</tr>
-                  <tr>	<th>	NESTOR	</th>	<th>	TORRES	</th>	</tr>
-                  <tr>	<th>	GONZALO	</th>	<th>	CASTILLO	</th>	</tr>
-                  <tr>	<th>	SEBASTIAN	</th>	<th>	MICALE	</th>	</tr>
-                  <tr>	<th>	MATIAS	</th>	<th>	SAUCEDO	</th>	</tr>
-                  <tr>	<th>	angel andres	</th>	<th>	carrizo	</th>	</tr>
-                  <tr>	<th>	Luciano	</th>	<th>	RODRIGUEZ	</th>	</tr>
-                  <tr>	<th>	NICOLAS 	</th>	<th>	BERTA	</th>	</tr>
-                  <tr>	<th>	LEONARDO	</th>	<th>	GONZALEZ	</th>	</tr>
-                  <tr>	<th>	JUAN	</th>	<th>	LIPARI	</th>	</tr>
-                  <tr>	<th>	carlos 	</th>	<th>	arduh	</th>	</tr>
-                  <tr>	<th>	JORGE	</th>	<th>	BARRIONUEVO	</th>	</tr>
-                  <tr>	<th>	MARIANA ELISABET 	</th>	<th>	CZENCZ	</th>	</tr>
-                  <tr>	<th>	Guillermo	</th>	<th>	Girardi	</th>	</tr>
-                  <tr>	<th>	Federico	</th>	<th>	Jauregui	</th>	</tr>
-                  <tr>	<th>	GONZALO OMAR	</th>	<th>	PAINEFIL	</th>	</tr>
-                  <tr>	<th>	JORGE LUIS	</th>	<th>	SENA	</th>	</tr>
-                  <tr>	<th>	MIGUEL OSVALDO	</th>	<th>	ROLON	</th>	</tr>
-                  <tr>	<th>	DARIO YONATH	</th>	<th>	VEGA	</th>	</tr>
-                  <tr>	<th>	MARIO	</th>	<th>	RIOS	</th>	</tr>
-                  <tr>	<th>	SERGIO	</th>	<th>	FARINA	</th>	</tr>
-                  <tr>	<th>	OSCAR	</th>	<th>	OLIVERIO	</th>	</tr>
-                  <tr>	<th>	gaston	</th>	<th>	nicoletti	</th>	</tr>
-                  <tr>	<th>	Julio Alberto	</th>	<th>	Soza	</th>	</tr>
-                  <tr>	<th>	BRUNO	</th>	<th>	CRISORIO	</th>	</tr>
-                  <tr>	<th>	NANCY ELMINA	</th>	<th>	LUPERCIO	</th>	</tr>
-                  <tr>	<th>	CLAUDIA ALEJANDRA 	</th>	<th>	SANDOVAL	</th>	</tr>
-                  <tr>	<th>	OMAR	</th>	<th>	MORO	</th>	</tr>
-                  <tr>	<th>	DIEGO	</th>	<th>	DONNET	</th>	</tr>
-                  <tr>	<th>	GUSTAVO	</th>	<th>	DONNET	</th>	</tr>
-                  <tr>	<th>	ARIEL	</th>	<th>	BONACINA	</th>	</tr>
-                  <tr>	<th>	MARTIN JOSE ALBERTO	</th>	<th>	MONTENEGRO	</th>	</tr>
-                  <tr>	<th>	Jose Luis	</th>	<th>	Agüero	</th>	</tr>
-                  <tr>	<th>	Guillermo	</th>	<th>	Nuesch	</th>	</tr>
-                  <tr>	<th>	ABEL 	</th>	<th>	ORREGO	</th>	</tr>
-                  <tr>	<th>	ADRIANA	</th>	<th>	BOIERO	</th>	</tr>
-                  <tr>	<th>	RICARDO DAMIAN	</th>	<th>	ALVAREZ	</th>	</tr>
-                  <tr>	<th>	Gabriel Enrique	</th>	<th>	Muñoz	</th>	</tr>
-                  <tr>	<th>	Nestor Telmo	</th>	<th>	Matos	</th>	</tr>
-                  <tr>	<th>	Sergio Dario	</th>	<th>	Aramburu	</th>	</tr>
-                  <tr>	<th>	Daniel Juan	</th>	<th>	Demarchi	</th>	</tr>
-                  <tr>	<th>	Marcelo Ramon	</th>	<th>	Fernandez	</th>	</tr>
-                  <tr>	<th>	Nicolas	</th>	<th>	Rodriguez	</th>	</tr>
-                  <tr>	<th>	Alberto Del Valle	</th>	<th>	Romero Cuello	</th>	</tr>
-                  <tr>	<th>	ROBERTO 	</th>	<th>	PEREZ	</th>	</tr>
-                  <tr>	<th>	GERMAN	</th>	<th>	DOMININO	</th>	</tr>
-                  <tr>	<th>	DAVID 	</th>	<th>	LOPEZ	</th>	</tr>
-                  <tr>	<th>	PABLO	</th>	<th>	ROMANO	</th>	</tr>
-                  <tr>	<th>	LUCIANA	</th>	<th>	FARIAS	</th>	</tr>
-
-
-               </tbody>
-             </table>
-           </div>
-
-         </div>
-         <div class="modal-footer">
-           <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-         </div>
-       </div>
-     </div>
-   </div>
-
-
-<div class="modal fade modal-center modal-sorpresa" id="sorteo-fsf" tabindex="-1" role="dialog">
-     <div class="modal-dialog modal-mega" role="document">
-       <div class="modal-content">
-         <div class="modal-body">
-           <h4 class="cyan" style="text-transform: uppercase"><strong>Estos son los ganadores del sorteo final de la ola que terminó el 2/12</strong>.
-           <div class="contenedor-tabla">
-             <table class="table table-responsive table-striped">
-               <thead>
-                 <tr>
-                   <th>Nombre</th>
-                   <th>Apellido</th>
-                 </tr>
-               </thead>
-               <tbody>
-                 <tr>	<th>	FRANCISCO	</th>	<th>	IONNOU	</th>	</tr>
-                  <tr>	<th>	KARINA	</th>	<th>	CAMARA	</th>	</tr>
-                  <tr>	<th>	HECTOR FABIAN 	</th>	<th>	GRINOVERO	</th>	</tr>
-                  <tr>	<th>	Federico Exequiel	</th>	<th>	Robles	</th>	</tr>
-                  <tr>	<th>	CARLOS	</th>	<th>	GONZALEZ	</th>	</tr>
-                  <tr>	<th>	Daniel Ricardo	</th>	<th>	Videla	</th>	</tr>
-               </tbody>
-             </table>
-           </div>
-
-         </div>
-         <div class="modal-footer">
-           <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-         </div>
-       </div>
-     </div>
-   </div>
-
-<script type="text/javascript">
-  $(window).on('load',function(){
-       $('#noviembre-fsf').modal('show');
-       $('#sorteo-fsf').modal('show');
-  });
-</script>
-
-<? } elseif($_SESSION['miembro_tipo'] == "ka"){?>
-
-<div class="modal fade modal-center modal-sorpresa" id="sorteo-kkaa" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-mega" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <h4 class="cyan" style="text-transform: uppercase"><strong>Estos son los ganadores del sorteo final de la ola que terminó el 2/12</strong>.
-            <div class="contenedor-tabla">
-              <table class="table table-responsive table-striped">
-                <thead>
-                  <tr>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>	<th>	Cintia 	</th>	<th>	Parra	</th>	</tr>
-                  <tr>	<th>	ALBERTO JOSE	</th>	<th>	DARRIEU 	</th>	</tr>
-                  <tr>	<th>	 EVANGELINA MARISOL	</th>	<th>	MADRID	</th>	</tr>
-                  <tr>	<th>	 PATRICIO CIRO </th>	<th>OCT STAGNITTA	</th>	</tr>
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-          <div class="modal-footer">
-            <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-<script type="text/javascript">
-  $(window).on('load',function(){
-       $('#sorteo-kkaa').modal('show');
-  });
-</script>
-
-<? } elseif($_SESSION['miembro_tipo'] == "gt"){?>
-
-<div class="modal fade modal-center modal-sorpresa" id="sorteo-gt" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-mega" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <h4 class="cyan" style="text-transform: uppercase"><strong>Estos son los ganadores del sorteo final de la ola que terminó el 2/12</strong>.
-            <div class="contenedor-tabla">
-              <table class="table table-responsive table-striped">
-                <thead>
-                  <tr>
-                    <th>Raz&oacute;n Social</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>	<th>	FIGUEROA JORGE HUMBERTO       	</tr>	</th>
-                  <tr>	<th>	GIMENEZ IBA?EZ, PATRICIO      	</tr>	</th>
-                  <tr>	<th>	GROSSO JUAN DOMINGO           	</tr>	</th>
-                  <tr>	<th>	LUCERO NANCY NOEMI            	</tr>	</th>
-                  <tr>	<th>	GOMEZ SILVIO HERNAN           	</tr>	</th>
-                  <tr>	<th>	BILIK FERNANDO JAVIER         	</tr>	</th>
-                  <tr>	<th>	SERVICIOS RUTA 21 S.R.L       	</tr>	</th>
-                  <tr>	<th>	ARRIETA MATIAS NICOLAS        	</tr>	</th>
-                  <tr>	<th>	HILBERT RICARDO ALBERTO       	</tr>	</th>
-                  <tr>	<th>	LASAGNA CARLOS ALBERTO        	</tr>	</th>
-                  <tr>	<th>	BALONI DIANA ISABEL           	</tr>	</th>
-                  <tr>	<th>	MANSILLA CARLOS MARTIN        	</tr>	</th>
-                  <tr>	<th>	MAESTROMEY FABIAN OSCAR       	</tr>	</th>
-                  <tr>	<th>	GNC BURZACO SRL               	</tr>	</th>
-                  <tr>	<th>	VIEYRA PABLO JAVIER           	</tr>	</th>
-                  <tr>	<th>	SAUR CARLOS ISIDORO           	</tr>	</th>
-                  <tr>	<th>	NOTO JAVIER ALEJANDRO         	</tr>	</th>
-                  <tr>	<th>	DARIO GUSTAVO RICARDI         	</tr>	</th>
-                  <tr>	<th>	TRANSPORTE LOS ARROYOS S.R.L. 	</tr>	</th>
-                  <tr>	<th>	ALGARE MAURO JAVIER           	</tr>	</th>
-                  <tr>	<th>	FINETTI LORENA ANDREA         	</tr>	</th>
-                  <tr>	<th>	GETHER OMAR ABEL              	</tr>	</th>
-                  <tr>	<th>	GO?I SANDRA HAYDEE            	</tr>	</th>
-                  <tr>	<th>	HERNANDEZ CELIA               	</tr>	</th>
-                  <tr>	<th>	BONOMI MARIA LAURA            	</tr>	</th>
-                  <tr>	<th>	AYDES SA                      	</tr>	</th>
-                  <tr>	<th>	GUERRINI  PATRICIA V          	</tr>	</th>
-                  <tr>	<th>	BENZIN S.R.L.                 	</tr>	</th>
-                  <tr>	<th>	SPIES FERNANDO DANIEL         	</tr>	</th>
-                  <tr>	<th>	BOUCHET NATALIA               	</tr>	</th>
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-          <div class="modal-footer">
-            <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  <!-- Ganadores GT SORPRESA -->
-   <div class="modal fade modal-center modal-sorpresa" id="sorpresa-gt" tabindex="-1" role="dialog">
-     <div class="modal-dialog modal-mega" role="document">
-       <div class="modal-content">
-         <div class="modal-body">
-           <img src="img/gift-ganador.png" alt="">
-           <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL <strong>DESAF&Iacute;O SORPRESA</strong>. <span class="cyan">CADA UNO SE GAN&Oacute; UNA GIFTH CARD DE $1.500.</span></strong></h4>
-           <div class="contenedor-tabla">
-             <table class="table table-responsive table-striped">
-               <thead>
-                 <tr>
-                   <th>Raz&oacute;n Social</th>
-
-                 </tr>
-               </thead>
-               <tbody>
-                  <tr>	<th>	VERA MARIANO 	</th>	</tr>
-                  <tr>	<th>	MARTIN LILIANA  	</th>	</tr>
-                  <tr>	<th>	-VILLEGAS CLELIA HAYDEE                  	</th>	</tr>
-                  <tr>	<th>	LEIVA  JAVIER  	</th>	</tr>
-                  <tr>	<th>	ANTUNA, ROSA MARIA	</th>	</tr>
-                  <tr>	<th>	BENGOLEA,LUISMARIA 	</th>	</tr>
-                  <tr>	<th>	JIMENEZ, GABRIELA    	</th>	</tr>
-                  <tr>	<th>	SEIB JULIAN EZEQUIEL  	</th>	</tr>
-                  <tr>	<th>	DE NENNE JORGE ALBERTO     	</th>	</tr>
-                  <tr>	<th>	VILLALBA TORREZLEONIDA 	</th>	</tr>
-
-               </tbody>
-             </table>
-           </div>
-
-         </div>
-         <div class="modal-footer">
-           <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-         </div>
-       </div>
-     </div>
-   </div>
-
-<script type="text/javascript">
-  $(window).on('load',function(){
-       $('#sorteo-gt').modal('show');
-       $('#sorpresa-gt').modal('show');
-  });
-</script>
-
-
-<? } ?>
-
-
-<? if($_SESSION['miembro_tipo'] == "gt"){
+<? if($_SESSION['miembro_tipo'] == "gtx"){
 		$habilitado = 0;
 		$query = "select * from posis_1008 where (posis = '" . $_SESSION['miembro_posis'] . "' or posis = '0000" . $_SESSION['miembro_posis'] . "')";
 		$sql=mysqli_query($connection,$query);
@@ -390,6 +69,74 @@
 <? } } ?>
 
 
+<? if($_SESSION['miembro_tipo'] == "gt" && $_SESSION['miembro_promocode'] == ""){?>
+    <!-- Modal CODIGO  -->
+    <div class="modal fade modal-center" id="codigo-fb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-summer blue">
+                <div class="modal-body" style="width: 100%">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>&iexcl;Ingres&aacute; tu código <br><span>y sum&aacute; 140 chances!</span></h2>
+                            <p>Si no lo recibiste llam&aacute; al call center <a href="tel:0800-888-6275"><i class="fa fa-phone" aria-hidden="true"></i> 0800-888-6275</a> y pedilo</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <div class="logeo" style="padding: 20px 0px">
+                                <form class="contact_form form_register" method="post" name="formpromo" id="formpromo">
+                                    <div class="form-group">
+                                        <label for="">Código promocional</label>
+                                        <input class="form-control" name="promocode" id="promocode" placeholder="Ingresá tu código promocional" type="text">
+                                    </div>
+									  <div class="modal-footer">
+										<button type="submit" onClick="document.forms['formpromo'].submit();" form="form1" value="Submit" class="btn-mega-w btn-summer-out">Enviar</button>
+
+									  </div>
+									
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega-out btn-summer-out" data-dismiss="modal">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script>
+        $(window).on('load', function() {
+            $('#codigo-fb').modal('show');
+        });
+	</script>
+<? } ?>
+
+<? if($recien_ingresa_gt_promo == 1){?>
+<div class="modal fade modal-center modal-summer" id="ds-gt-end" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-mega" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/logo.png" alt="">
+          <h2 class="blue-dark">&iexcl;GRACIAS POR PARTICIPAR! </h2>
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn-mega-out btn-summer-out" data-dismiss="modal">Continuar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	<script>
+        $(window).on('load', function() {
+            $('#ds-gt-end').modal('show');
+        });
+	</script>
+<? } ?>
+
+
+
 
 <?
 		$habilitado = 0;
@@ -452,65 +199,10 @@
 
 	<? } ?>
 
-<? if($_SESSION['miembro_tipo'] == "ka"){?>
-
-        <div class="modal fade modal-center modal-sorpresa" id="olafinal-kkaa" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-mega" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <img src="img/gift-ganador.png" alt="">
-                <h4 class="cyan" style="text-transform: uppercase"><strong>ESTOS SON LOS GANADORES DEL RANKING FINAL DE LA OLA QUE TERMIN&Oacute; EL 2/12.</strong>
-                <div class="contenedor-tabla">
-                  <table class="table table-responsive table-striped">
-                    <thead>
-                      <tr>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                        <th>Gift Card</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>	<th>	Agustin	</th>	<th>		</th>	<th>	 $ 30.000 	</th>	</tr>
-                      <tr>	<th>	Antonella   	</th>	<th>	Manuali	</th>	<th>	 $ 30.000 	</th>	</tr>
-                      <tr>	<th>	Matías 	</th>	<th>	Nerli	</th>	<th>	 $ 30.000 	</th>	</tr>
-                      <tr>	<th>	PATRICIO CIRO OCT	</th>	<th>	STAGNITTA	</th>	<th>	 $ 10.000 	</th>	</tr>
-                      <tr>	<th>	Leandro 	</th>	<th>	Meza	</th>	<th>	 $ 10.000 	</th>	</tr>
-                      <tr>	<th>	Ariel  	</th>	<th>	Molina	</th>	<th>	 $ 10.000 	</th>	</tr>
-                      <tr>	<th>	Cintia 	</th>	<th>	Parra 	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	EDGARDO ALFREDO	</th>	<th>	BENITEZ	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	Paola 	</th>	<th>	Alegre	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	Matias  	</th>	<th>	Marello	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	Matías 	</th>	<th>	Gonzalo Montes de Oca	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	Matias 	</th>	<th>	Barrionuevo	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	ALBERTO JOSE	</th>	<th>	DARRIEU	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	MIGUEL FERNANDO	</th>	<th>	BIASSONI	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	Noelia 	</th>	<th>	Ordoñez	</th>	<th>	 $ 3.000 	</th>	</tr>
-                      <tr>	<th>	HORACIO AN	</th>	<th>	DE ANGELO	</th>	<th>	 $ 3.000 	</th>	</tr>
-
-                    </tbody>
-                  </table>
-                </div>
-
-              </div>
-              <div class="modal-footer">
-                <button class="btn-mega" data-dismiss="modal">Continuar</button>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-<script type="text/javascript">
-  $(window).on('load',function(){
-       $('#olafinal-kkaa').modal('show');
-  });
-</script>
-
-<? } ?>
 
 
 
-<? if($_SESSION['miembro_tipo'] == "ka" && $_SESSION['miembro_carga_staff'] == 1 && $_REQUEST['t'] == 1){?>
+<? if($_SESSION['miembro_tipo'] == "ka" && $_SESSION['miembro_carga_staff'] == 1){?>
     <!-- DESAFIO SORPRESA GT -->
     <div class="modal fade modal-center" id="call-staff" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog " role="document">
