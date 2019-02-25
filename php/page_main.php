@@ -101,6 +101,15 @@ if($_REQUEST['des1007'] == 1 && $_REQUEST['radio1'] != ""){
 	
 }
 
+if($_REQUEST['promocode'] != ""){
+	$puntos_promocode = 0;
+	if($_REQUEST['promocode'] == "AB1955FB" || $_REQUEST['promocode'] == "RA1960SC" || $_REQUEST['promocode'] == "TB2009QM") $puntos_promocode = 140;
+	$queryu = "update comercios set promocode = '" . $_REQUEST['promocode'] . "', puntos_promocode = '" . $puntos_promocode . "' where id = " . $_SESSION['miembro_id'];
+	$sql=mysqli_query($connection,$queryu);
+	$_SESSION['miembro_promocode'] = $_REQUEST['promocode'];
+	$recien_ingresa_gt_promo = 1;
+}
+
 // Envia Cekular
 if($_REQUEST['celular'] != ""){
 			$queryins = "update comercios set celular = '" . clean($_REQUEST['celular']) . "' where id = " . $_SESSION['miembro_id'];
@@ -510,7 +519,7 @@ if($_SESSION['miembro_tipo'] == "ka" && $_REQUEST['desafio1005'] == 1 && $_SESSI
   <? } ?>	
 
 	
-<? if(($_SESSION['miembro_tipo'] == "ka"|| $_SESSION['miembro_tipo'] == "kkaastaff") && $_SESSION['miembro_desafiosorpresa1007'] != 1){?>	
+<? if(($_SESSION['miembro_tipo'] == "kax"|| $_SESSION['miembro_tipo'] == "kkaastaffx") && $_SESSION['miembro_desafiosorpresa1007x'] != 1){?>	
 <div class="modal fade modal-center" id="ds-gt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog " role="document">
        <form action="" method="post" name="form1006" id="form1007">
@@ -676,7 +685,11 @@ $(document).ready(function() {
 	
 </script>
 
-	
+<script  type="text/javascript">
+sendEvent = function(sel, step) {
+     $(sel).trigger('next.m.' + step);
+}
+</script>	
 	
 <?php mysqli_close($connection);?>
 </body>

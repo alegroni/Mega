@@ -1,67 +1,407 @@
 <? if($includes != "si") exit(); ?>
 
+<? if($_SESSION['miembro_tipo'] == "fsf"){?>
+<div class="modal fade modal-center modal-sorpresa" id="enero-fsf" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/gift-ganador.png" alt="">
+                    <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL RANKING DE <strong>ENERO</strong>.<br> <span
+                            class="cyan">CADA UNO SE GAN&Oacute; UNA GIFT CARD DE $3000.</span></h4>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th> Guillermo </th>
+                                    <th> Girardi </th>
+                                </tr>
+                                <tr>
+                                    <th> OSCAR DANIEL </th>
+                                    <th> RUBILAR </th>
+                                </tr>
+                                <tr>
+                                    <th> GONZALO OMAR </th>
+                                    <th> PAINEFIL </th>
+                                </tr>
+                                <tr>
+                                    <th> ALBERTO </th>
+                                    <th> LANDE </th>
+                                </tr>
+                                <tr>
+                                    <th> Hernan </th>
+                                    <th> Roche </th>
+                                </tr>
+                                <tr>
+                                    <th> CLAUDIA </th>
+                                    <th> DIAZ </th>
+                                </tr>
+                                <tr>
+                                    <th> LILIANA </th>
+                                    <th> RICCETTI </th>
+                                </tr>
+                                <tr>
+                                    <th> JUAN </th>
+                                    <th> GONZALEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> LARS </th>
+                                    <th> LEONARDH </th>
+                                </tr>
+                                <tr>
+                                    <th> Ignacio </th>
+                                    <th> Carrera </th>
+                                </tr>
+                                <tr>
+                                    <th> RODRIGO </th>
+                                    <th> SALINAS </th>
+                                </tr>
+                                <tr>
+                                    <th> IAN </th>
+                                    <th> DALESIO </th>
+                                </tr>
+                                <tr>
+                                    <th> Federico </th>
+                                    <th> Jauregui </th>
+                                </tr>
+                                <tr>
+                                    <th> CADIN </th>
+                                    <th> RICARDO </th>
+                                </tr>
+                                <tr>
+                                    <th> MANUEL </th>
+                                    <th> ALDANA </th>
+                                </tr>
+                                <tr>
+                                    <th> Pablo Mario </th>
+                                    <th> Gomez </th>
+                                </tr>
+                                <tr>
+                                    <th> Carlos Adrian </th>
+                                    <th> Mayorga </th>
+                                </tr>
+                                <tr>
+                                    <th> LEONARDO </th>
+                                    <th> COLUNGA </th>
+                                </tr>
+                                <tr>
+                                    <th> Guillermo </th>
+                                    <th> Nuesch </th>
+                                </tr>
+                                <tr>
+                                    <th> Daniel Ricardo </th>
+                                    <th> Videla </th>
+                                </tr>
+                                <tr>
+                                    <th> RAQUEL </th>
+                                    <th> MASTROIANNI </th>
+                                </tr>
+                                <tr>
+                                    <th> ROMINA </th>
+                                    <th> PALMA </th>
+                                </tr>
+                                <tr>
+                                    <th> DARIO YONATH </th>
+                                    <th> VEGA </th>
+                                </tr>
+                                <tr>
+                                    <th> MARILIN </th>
+                                    <th> BARRETO </th>
+                                </tr>
+                                <tr>
+                                    <th> LEONARDO </th>
+                                    <th> GONZALEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> SERGIO </th>
+                                    <th> FARINA </th>
+                                </tr>
+                                <tr>
+                                    <th> Ruben </th>
+                                    <th> Buffi </th>
+                                </tr>
+                                <tr>
+                                    <th> GASTON </th>
+                                    <th> NIEVAS </th>
+                                </tr>
+                                <tr>
+                                    <th> Roberto Javier </th>
+                                    <th> Miron </th>
+                                </tr>
+                                <tr>
+                                    <th> Federico Exequiel </th>
+                                    <th> Robles </th>
+                                </tr>
+                                <tr>
+                                    <th> carlos </th>
+                                    <th> disandro </th>
+                                </tr>
+                                <tr>
+                                    <th> ANDRES </th>
+                                    <th> Pace </th>
+                                </tr>
+                                <tr>
+                                    <th> DENIS </th>
+                                    <th> BOGDANOVICH </th>
+                                </tr>
+                                <tr>
+                                    <th> JOSE LUIS </th>
+                                    <th> SANCHEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> Gaston </th>
+                                    <th> Nicolau </th>
+                                </tr>
+                                <tr>
+                                    <th> Omar </th>
+                                    <th> Blanco </th>
+                                </tr>
+                                <tr>
+                                    <th> DAVID </th>
+                                    <th> LOPEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> PABLO ALEJANDRO </th>
+                                    <th> LOPEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> HORACIO DAVID </th>
+                                    <th> GUTIERREZ </th>
+                                </tr>
+                                <tr>
+                                    <th> SOLEDAD BLANCA  </th>
+                                    <th> MONGELOS </th>
+                                </tr>
+                                <tr>
+                                    <th> NANCY ELMINA </th>
+                                    <th> LUPERCIO </th>
+                                </tr>
+                                <tr>
+                                    <th>  NADIA ANABELLA </th>
+                                    <th> OLIVERA </th>
+                                </tr>
+                                <tr>
+                                    <th> MARIANA ELISABET  </th>
+                                    <th> CZENCZ </th>
+                                </tr>
+                                <tr>
+                                    <th> OMAR </th>
+                                    <th> MORO </th>
+                                </tr>
+                                <tr>
+                                    <th> GUSTAVO </th>
+                                    <th> DONNET </th>
+                                </tr>
+                                <tr>
+                                    <th> ARIEL </th>
+                                    <th> BONACINA </th>
+                                </tr>
+                                <tr>
+                                    <th> Juan Carlos </th>
+                                    <th> Cisneros </th>
+                                </tr>
+                                <tr>
+                                    <th> Alejandra </th>
+                                    <th> Pereyro </th>
+                                </tr>
+                                <tr>
+                                    <th> Marta </th>
+                                    <th> Cervellini </th>
+                                </tr>
+                                <tr>
+                                    <th> SERGIO </th>
+                                    <th> FERNANDEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> KARINA </th>
+                                    <th> CAMARA </th>
+                                </tr>
+                                <tr>
+                                    <th> Hugo Daniel </th>
+                                    <th> Mauri </th>
+                                </tr>
+                                <tr>
+                                    <th> PABLO </th>
+                                    <th> GONZALEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> ENZO </th>
+                                    <th> ANDISCO </th>
+                                </tr>
+                                <tr>
+                                    <th> MARIO </th>
+                                    <th> ALLIPI </th>
+                                </tr>
+                                <tr>
+                                    <th> DIEGO </th>
+                                    <th> ANDISCO </th>
+                                </tr>
+                                <tr>
+                                    <th> EDUARDO JAVIER </th>
+                                    <th> CERSOFIOS </th>
+                                </tr>
+                                <tr>
+                                    <th> CAMILA </th>
+                                    <th> HERNMANDEZ </th>
+                                </tr>
+                                <tr>
+                                    <th> EMANUEL </th>
+                                    <th> VALLE </th>
+                                </tr>
+                                <tr>
+                                    <th> DENK </th>
+                                    <th> DANIEL </th>
+                                </tr>
+                                <tr>
+                                    <th> RICARDO DAMIAN </th>
+                                    <th> ALVAREZ </th>
+                                </tr>
+                                <tr>
+                                    <th> RICARDO ARIEL </th>
+                                    <th> ENCINA LUQUE </th>
+                                </tr>
+                                <tr>
+                                    <th> ALBERTO </th>
+                                    <th> MANSILLA </th>
+                                </tr>
+                                <tr>
+                                    <th> Ramiro </th>
+                                    <th> Arancet </th>
+                                </tr>
+                                <tr>
+                                    <th> CRISTIAN </th>
+                                    <th> LUKIANOV </th>
+                                </tr>
+                                <tr>
+                                    <th> MARIANO </th>
+                                    <th> DELGADO </th>
+                                </tr>
+                                <tr>
+                                    <th>  YESICA ALEJANDRA </th>
+                                    <th> ALBARRACIN </th>
+                                </tr>
+                                <tr>
+                                    <th> HUGO </th>
+                                    <th> MORAN </th>
+                                </tr>
+                                <tr>
+                                    <th> DIEGO MARTIN </th>
+                                    <th> CESANELLI </th>
+                                </tr>
+                                <tr>
+                                    <th> MARIANO </th>
+                                    <th> SAUCO </th>
+                                </tr>
+                                <tr>
+                                    <th> MARTIN JOSE ALBERTO </th>
+                                    <th> MONTENEGRO </th>
+                                </tr>
+                                <tr>
+                                    <th> HECTOR FABIAN </th>
+                                    <th> GRINOVERO </th>
+                                </tr>
+                                <tr>
+                                    <th> LUIS ALBERTO </th>
+                                    <th> LARSEN </th>
+                                </tr>
+                                <tr>
+                                    <th> Alejandra Andrea </th>
+                                    <th> Mana </th>
+                                </tr>
+                                <tr>
+                                    <th> STEPHANIE </th>
+                                    <th> DIAZ </th>
+                                </tr>
+                                <tr>
+                                    <th> Gastón Ezequiel </th>
+                                    <th> Garcia Cueva </th>
+                                </tr>
+                                <tr>
+                                    <th> Mariela </th>
+                                    <th> Cerdan </th>
+                                </tr>
+                                <tr>
+                                    <th> RUBIN </th>
+                                    <th> EMANUEL </th>
+                                </tr>
+                                <tr>
+                                    <th> fabian </th>
+                                    <th> nieto </th>
+                                </tr>
+                                <tr>
+                                    <th> SEBASTIAN ANDRES </th>
+                                    <th> FARRANDO </th>
+                                </tr>
 
-<? if($_SESSION['miembro_tipo'] == "gtx"){
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Continuar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+  $(window).on('load',function(){
+       $('#enero-fsf').modal('show');
+  });
+</script>
+
+<? } ?>
+
+
+
+<? if(1==1){
 		$habilitado = 0;
-		$query = "select * from posis_1008 where (posis = '" . $_SESSION['miembro_posis'] . "' or posis = '0000" . $_SESSION['miembro_posis'] . "')";
+		$query = "select * from posis_varios where tipo = 'bat' and (posis = '" . $_SESSION['miembro_posis'] . "' or posis = '0000" . $_SESSION['miembro_posis'] . "')";
 		$sql=mysqli_query($connection,$query);
 		while($rg=mysqli_fetch_object($sql)){
 			$habilitado = 1;
 		}
 	if($habilitado == 1){?>
-    <!-- DESAFIO SORPRESA GT -->
-    <div class="modal fade modal-center" id="ds-gt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog " role="document">
-         <form  action="index.html" method="post">
-          <div class="modal-content modal-summer violet">
-            <div class="modal-body" style="width:100%;text-align:center;">
-              <svg style="max-width: 120px;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
-              <style type="text/css">
-              	.st0{fill:#FFFFFF;}
-              </style>
-              <g>
-              	<path class="st0" d="M82.1,215.9l-0.9-3.4c-1.6-5.8-3.1-11.4-4.6-17c-0.6-2.3-1.2-4.6-1.8-6.9c-0.6-2.2-1.2-4.3-1.7-6.5
-              		c-22.6-2.8-40.5-20.6-43.6-43.3C26.2,114.9,41,91.6,63.9,84.5c0.8-0.3,1-0.5,1.3-1.2c6.2-14.4,16-26.1,29.2-35
-              		c11.8-8,25.3-12.6,40.3-13.7c36.7-2.4,70.4,19.9,82,54.2c9.8,28.7,5.1,55.3-14,79c-10.9,13.5-25.6,22.7-43.6,27.5
-              		c-14.8,3.9-29.9,8-44.4,11.9c-8.3,2.2-16.7,4.5-25,6.7c-0.8,0.3-1.6,0.4-2.4,0.6c-0.5,0.1-1.1,0.2-1.7,0.4L82.1,215.9z M74.1,175.2
-              		c2.9,0.2,4.7,1.8,5.6,4.6c0.6,2.4,1.2,4.7,1.9,7c0.6,2.3,1.3,4.6,1.9,6.9c1.2,4.5,2.4,9,3.7,13.7c0.2,0,0.3-0.1,0.5-0.1l0.1,0
-              		c8.4-2.2,16.7-4.5,25-6.7c14.6-3.9,29.6-8,44.5-11.9c16.8-4.4,29.9-12.6,40-25.1c17.5-21.7,21.8-46.1,12.8-72.3
-              		c-10.6-31.3-41.4-51.6-74.8-49.4c-13.9,1-25.9,5.1-36.8,12.5c-12,8.1-21,18.8-26.6,31.9c-1.1,2.6-2.9,4.2-5.6,5.1
-              		c-19.7,6.1-32.4,26.1-29.6,46.7C39.1,157.6,54.6,172.9,74.1,175.2z"/>
-              </g>
-              <g>
-              	<path class="st0" d="M136.6,106.8c5.2-3.7,10.6-4.4,16.4-2.8c6.1,1.7,10.6,6.6,10.9,12.9c0.4,8.8,0.3,17.6,0.1,26.4
-              		c-0.1,3.9-2.6,6.1-6,6.2c-3.3,0.1-6.1-2.4-6.2-6.1c-0.3-7.2-0.2-14.5-0.2-21.8c0-4.7-2.6-7.7-7-7.8c-4.7-0.2-7.7,2.5-7.8,7.3
-              		c-0.2,6.8-0.1,13.6-0.1,20.4c0,1.2-0.1,2.4-0.4,3.5c-0.7,2.8-3.1,4.5-6,4.5c-2.7,0-5-1.9-5.7-4.6c-0.2-1-0.4-2-0.4-3
-              		c0-16.6,0-33.3,0-49.9c0-3.9,1.5-6.3,4.2-7.2c4.3-1.4,8.2,1.5,8.3,6.3C136.7,96.1,136.6,101.3,136.6,106.8z"/>
-              	<path class="st0" d="M117.8,126.4c-0.1,11.1-6.3,20-15.4,22.6c-11.1,3.2-21.7-2-26.2-12.7c-4-9.6-1.5-21.1,6.3-28.1
-              		c9.9-8.9,26-5.7,32.3,6.4C116.9,118.5,118,122.5,117.8,126.4z M105.8,126.8c-0.5-4.2-1.6-7.2-3.6-9.5c-3.4-3.7-9.9-3.4-12.6,0.8
-              		c-3.4,5.2-3.5,10.6-0.5,16.2c2.7,5.1,11.3,5.9,14.4-0.1C104.5,131.9,105,129.3,105.8,126.8z"/>
-              	<path class="st0" d="M189,110.1c0,5.3,0,10.7,0,16c0,2.9-1.6,4.9-4.3,5.7c-2.9,0.8-6-0.2-7.3-2.6c-0.5-0.9-0.8-1.9-0.8-2.9
-              		c-0.1-10.8,0-21.7-0.1-32.5c0-3,2.6-5.5,5.9-5.6c3.6-0.2,6.5,2.2,6.5,5.6C189.1,99.2,189,104.6,189,110.1L189,110.1z"/>
-              	<path class="st0" d="M182.9,136.5c3.7,0,6.6,2.9,6.6,6.7c0,3.7-2.9,6.7-6.7,6.8c-3.5,0.1-6.6-2.9-6.6-6.3
-              		C176.3,139.2,178.7,136.5,182.9,136.5z"/>
-              </g>
-              </svg>
-              <h2 class="txt-white">&iquest;Quer&eacute;s ganarte una Gift Card por $1.500?</h2>
+    <div class="modal fade modal-center" id="bat" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega " role="document">
+            <div class="modal-content clip-modal">
+                <div class="modal-body ">
+                    <div class="shadow">
+                        <div class="head">
+                            <div class="shadow">
+                                <div class="contenedor">
+                                    <h2>SABEMOS QUE DEJASTE DE VENDER VARIAS VERSIONES DE BAT <br> A TUS CLIENTES </h2>
+                                    <h5>LLEGÓ LA HORA DE <br>RENOVARSE Y SORPRENDERLOS </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="contenedor">
+                            <h3>DALE LA BIENVENIDA A LA FAMILIA DE <br>MASSALIN PARTICULARES </h3>
+                            <img src="img/packsbat.png" alt="">
+                            <a href="#portfolio">CONOCER MÁS</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn-mega-out" data-dismiss="modal">Cerrar</button>
+                        </div>
 
-              <!-- PREMIO KKAA SUPERVISORES -->
-              <p>&iexcl;Entonces no dejes pasar este sorteo y particip&aacute;!</p>
-              <!--  -->
-              <button   class="btn-mega-w btn-summer-out participar" data-dismiss="modal" onclick="location.href='https://www.gomassalin.com/desafio-sorpresagt';" formtarget="_blank">PARTICIPAR</button>
+                    </div>
+                </div>
 
             </div>
-            <div class="modal-footer">
-              <button class="btn-mega-out btn-summer-out" data-dismiss="modal">Cerrar</button>
-
-            </div>
-          </div>
-        </form>
-      </div>
+        </div>
     </div>
 <script type="text/javascript">
   $(window).on('load',function(){
-       $('#ds-gt').modal('show');
+       $('#bat').modal('show');
   });
 </script>
 
@@ -69,7 +409,7 @@
 <? } } ?>
 
 
-<? if($_SESSION['miembro_tipo'] == "gt" && $_SESSION['miembro_promocode'] == ""){?>
+<? if($_SESSION['miembro_tipo'] == "gtxx" && $_SESSION['miembro_promocode'] == ""){?>
     <!-- Modal CODIGO  -->
     <div class="modal fade modal-center" id="codigo-fb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -145,7 +485,7 @@
 		while($rg=mysqli_fetch_object($sql)){
 			$habilitado = 1;
 		}
-	if($habilitado == 1 && $_SESSION['miembro_celular'] == ""){?>
+	if(1==2 && $habilitado == 1 && $_SESSION['miembro_celular'] == ""){?>
 
     <!-- Whatsapp -->
      <div class="modal fade modal-center" id="whatsapp" tabindex="-1" role="dialog">
@@ -202,7 +542,7 @@
 
 
 
-<? if($_SESSION['miembro_tipo'] == "ka" && $_SESSION['miembro_carga_staff'] == 1){?>
+<? if($_SESSION['miembro_tipo'] == "kaxx" && $_SESSION['miembro_carga_staff'] == 1){?>
     <!-- DESAFIO SORPRESA GT -->
     <div class="modal fade modal-center" id="call-staff" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog " role="document">
@@ -313,3 +653,429 @@
 </script>
 
 <? } ?>
+
+<? if($_SESSION['miembro_tipo'] == "ka"){?>
+<div class="modal fade modal-center modal-sorpresa" id="enero-kkaa-r" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/gift-ganador.png" alt="">
+                    <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL RANKING DE <strong>ENERO</strong>.</h4>
+                    <h4 class="cyan">CADA UNO SE GAN&Oacute; UNA GIFT CARD </h4>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Gift Card</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th> Matias </th>
+                                    <th> Nerli </th>
+                                    <th> $10.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Cintia </th>
+                                    <th> Parra </th>
+                                    <th> $10.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Matias Gonzalo </th>
+                                    <th> Montes de Oca </th>
+                                    <th> $10.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Antonella </th>
+                                    <th> Manuali </th>
+                                    <th> $2.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Leandro Nicolás </th>
+                                    <th> Ledesma </th>
+                                    <th> $2.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> GONZALO </th>
+                                    <th> GANDUGLIA </th>
+                                    <th> $2.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> DEBORA SONIA </th>
+                                    <th> GALETTI </th>
+                                    <th> $2.000 </th>
+                                </tr>                                
+                                <tr>
+                                    <th> MARIA DANIELA </th>
+                                    <th> NIZZOLA </th>
+                                    <th> $2.000 </th>
+                                </tr>                                                                
+                                <tr>
+                                    <th> Carina </th>
+                                    <th> Barrionuevo </th>
+                                    <th> $2.000 </th>
+                                </tr>                                                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Continuar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+  $(window).on('load',function(){
+       $('#enero-kkaa-r').modal('show');
+  });
+</script>
+
+<? } ?>
+
+<? if($_SESSION['miembro_tipo'] == "gtxx" && $_SESSION['chances_txt'] == "puntos"){?>
+
+    <!-- Ganadores GT RANKING -->
+    <div class="modal fade modal-center modal-sorpresa" id="diciembre-gt-r" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/gift-ganador.png" alt="">
+                    <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL RANKING DE <strong>DICIEMBRE</strong>.</h4>
+                    <h4 class="cyan">CADA UNO SE GAN&Oacute; UNA GIFT CARD </h4>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Raz&oacute;n Social</th>
+                                    <th>Gift Card</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              <tr>	<th>	HAMUE LUCILA BETIANA	</th>	<th>	$ 3.000	</th>	</tr>
+                              <tr>	<th>	ROCHA RODOLFO E HIJOS S.H.	</th>	<th>	$ 3.000	</th>	</tr>
+                              <tr>	<th>	STACUL RUBEN	</th>	<th>	$ 3.000	</th>	</tr>
+                              <tr>	<th>	Bressan Hernan	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	Hughes Maximiliano Rafael	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	Lopez Teresa Angelica	</th>	<th>	$ 1.500	</th>	</tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Continuar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+  $(window).on('load',function(){
+       $('#diciembre-gt-r').modal('show');
+  });
+</script>
+
+<? } ?>
+
+
+<? if($_SESSION['miembro_tipo'] == "gtxx" && $_SESSION['chances_txt'] != "puntos"){?>
+
+    <!-- Ganadores GT SORTEO -->
+    <div class="modal fade modal-center modal-sorpresa" id="diciembre-gt-s" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/gift-ganador.png" alt="">
+                    <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL SORTEO DE <strong>DICIEMBRE</strong>.</h4>
+                    <h4 class="cyan">CADA UNO SE GAN&Oacute; UNA GIFT CARD </h4>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Raz&oacute;n Social</th>
+                                    <th>Gift Card</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              <tr>	<th>	REPOSSI, JOSE MANUEL          	</th>	<th>	$ 25.000	</th>	</tr>
+                              <tr>	<th>	GUARDIA SUSANA BEATRIZ        	</th>	<th>	$ 25.000	</th>	</tr>
+                              <tr>	<th>	LOPEZ  OSCAR                  	</th>	<th>	$ 25.000	</th>	</tr>
+                              <tr>	<th>	MEANA DESIREE DEL CARMEN      	</th>	<th>	$ 10.000	</th>	</tr>
+                              <tr>	<th>	MAZZA ARIEL HUGO              	</th>	<th>	$ 10.000	</th>	</tr>
+                              <tr>	<th>	BATTISTON, FLAVIA LIS         	</th>	<th>	$ 10.000	</th>	</tr>
+                              <tr>	<th>	CALSAPI MARIA INES            	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	FUENTES TAMARA AILEN          	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	CROCE DIEGO MAURICIO          	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	GASSMAN LEOCADIA              	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	COSTA ROBERTO FRANCISCO       	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	MARTINICH VIVIANA RITA        	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	ZANEK Silvio Nelson           	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	Deheza S.A.1507 NORTE*Cap Fed*	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	ARRIOLA STELLA JAVER IGNACIO  	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	CHAILE LUIS ROLANDO           	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	ACTIS RICARDO MARCELO         	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	VILLARREAL NOELIA ANA         	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	GONZALEZ FERNANDO LIONEL      	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	VILLALBA TORREZ LEONIDA       	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	FERRERO EDILCE DEL MILAGRO    	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	AZCONA BENEDICTO#             	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	DALINGER MARIA CAROLA         	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	YACIURA MARIANA SOLEDAD       	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	.EST DE SERVIC. SATRAGNO SRL. 	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	SENA NAVARRO MIRTA NICASIA    	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	SANCHEZ CESAR DANIEL          	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	Feresin German                	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	MONTIEL HAIDE                 	</th>	<th>	$ 1.500	</th>	</tr>
+                              <tr>	<th>	ROBLEDO GRISELDA ISABEL II    	</th>	<th>	$ 1.500	</th>	</tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Continuar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+  $(window).on('load',function(){
+       $('#diciembre-gt-s').modal('show');
+  });
+</script>
+
+<? } ?>
+
+<? if($_SESSION['miembro_tipo'] == "kkaastaff"){?>
+
+<div class="modal fade modal-center modal-sorpresa" id="dicene-staff-r" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/gift-ganador.png" alt="">
+                    <h4 class="grey-dark">CONOC&Eacute; LOS GANADORES DEL RANKING DE <strong>DICIEMBRE Y ENERO</strong>.</h4>
+                    <h4 class="cyan">CADA UNO SE GAN&Oacute; UNA GIFT CARD </h4>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>ENERO</th>
+                                </tr>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Gift Card</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th> Julieta </th>
+                                    <th> Martiarena </th>
+                                    <th> $5.000 </th>
+                                <tr>
+                                    <th> Florencia </th>
+                                    <th> Palavecino </th>
+                                    <th> $5.000 </th>
+                                <tr>
+                                    <th> Franco Javier </th>
+                                    <th> Gonzalez </th>
+                                    <th> $5.000 </th>
+                                <tr>
+                                    <th> Martin </th>
+                                    <th> Otamendi </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Lucas Ariel </th>
+                                    <th> Molas </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Juan Cruz </th>
+                                    <th> Gomez Molina </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Maria Eugenia </th>
+                                    <th> Escobar </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Pamela Florencia </th>
+                                    <th> Rossetti </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Claudia Alejandra </th>
+                                    <th> Magrini </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Axel David </th>
+                                    <th> Casaux </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Matias </th>
+                                    <th> Cepeda </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Giuliana </th>
+                                    <th> Alzola </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Rosario del Mar </th>
+                                    <th> Charmoli </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Emmanuel Nicolás </th>
+                                    <th> Szyb </th>
+                                    <th> $1.000 </th>
+                                <tr>
+                                    <th> Luana gabriela </th>
+                                    <th> Branciforte </th>
+                                    <th> $1.000 </th>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="contenedor-tabla">
+                        <table class="table table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>DICIEMBRE</th>
+                                </tr>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Gift Card</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th> Leandro </th>
+                                    <th> Ibaceta </th>
+                                    <th> $5.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Nicolas Agustin </th>
+                                    <th> Rodera </th>
+                                    <th> $5.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Maria Eugenia </th>
+                                    <th> Escobar </th>
+                                    <th> $5.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Erick </th>
+                                    <th> Naveiro </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Brian Ezequiel </th>
+                                    <th> Blanco </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Juan Francisco </th>
+                                    <th> Tripiana </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Alexis </th>
+                                    <th> Cerullo </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Rodrigo </th>
+                                    <th> Villalba </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Franco Javier </th>
+                                    <th> Gonzalez </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Juan Cruz </th>
+                                    <th> Gomez Molina </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Mariana soledad </th>
+                                    <th> Orts </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Luciana </th>
+                                    <th> Junco </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Juan Pablo Eloy </th>
+                                    <th> Corte </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Martin IÃ±aki </th>
+                                    <th> Otamendi </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                                <tr>
+                                    <th> Lucas Ariel </th>
+                                    <th> Molas </th>
+                                    <th> $1.000 </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Continuar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<script>
+  $(window).on('load',function(){
+       $('#dicene-staff-r').modal('show');
+  });
+</script>
+
+<? } ?>
+
+
+	<? if($recien_responde10 == 1){?>
+    <div class="modal fade modal-center" id="fresco-fin" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content whatsapp">
+                <div class="modal-body ">
+                    <div class="head bg-fresh">
+                        <div class="grilla-wa ">
+                            <h1>&iexcl;Felicitaciones!</h1>
+
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="grilla-wa">
+                            <h3>&iexcl;Ganaste <span><?=$recien_responde10_puntos?></span> <?=$_SESSION['chances_txt']?>!</h3>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn-mega-out" data-dismiss="modal">CERRAR</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+		<script type="text/javascript">
+		  $(window).on('load',function(){
+			   $('#fresco-fin').modal('show');
+		  });
+		</script>
+	<? } ?>

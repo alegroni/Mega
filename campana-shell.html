@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- SITE TITLE -->
+    <title>GOMASSALIN | Desaf&iacute;o de Negocio</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/eurostile.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/preset.css">
+    <link rel="stylesheet" href="css/scroll-animation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_mega.css">
+
+    <style>
+        .shelltext{height: 50vh;align-items: center;display: flex;}
+        .shelltext p{text-align: center}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Loader-->
+    <div class="loading">
+        <div class="loading-center">
+            <div class="loading-center-absolute">
+                <div class="object object_one"></div>
+                <div class="object object_two"></div>
+                <div class="object object_three"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SEC-MEGA -->
+    <section class="end-promo">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12">
+                    <div class="textos shelltext">
+                        <p>Próximamente un Merchandiser estará visitándolos para contarles cuales son las opciones dentro de la Familia Massalin para ofrecerle al consumidor de BAT</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END MEGA -->
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-img">
+        <div class="bg-img"></div>
+        <h5 class="footer">Copyright &copy; <strong></strong>
+            <?=date('Y')?>. Todos los derechos reservados.<a class="cyan" href="#">- Bases y Condiciones</a> <a class="cyan" href="cookies"> - Pol&iacute;ticas de cookies</a><a class="cyan" href="privacidad"> - Pol&iacute;ticas de privacidad</a></h5>
+
+        <p class="footer">Ante cualquier duda, comun&iacute;quese al <a class="cyan" href="tel:0800-888-6275"><i class="fa fa-phone-square" aria-hidden="true"></i> 0800-888-6275</a> -
+            <a class="cyan" href="https://api.whatsapp.com/send?phone=numero&text=Hola%2C%20deseo%20adquirir%20un%20soporte%20con%20ustedes"><i class="fa fa-whatsapp" aria-hidden="true"></i> 11 3283 3571</a> -
+
+            <a class="cyan" href="mailto:go.massalin@pmi.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>go.massalin@pmi.com</a>
+        </p>
+
+    </footer>
+    <!-- END FOOTER -->
+    <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!-- Scripts -->
+
+    <div class="modal fade modal-center modal-error-registro" id="pic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-mega" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4>Tu foto ha sido enviada con &eacute;xito</h4>
+                    <p>Gracias por participar</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-mega" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/custom-animations.js"></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/counterup.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".premio").click(function() {
+                $(this).find(".listado").slideToggle("slow");
+                var b = $(this).find(".titulo span");
+                b.toggleClass("lnr-chevron-down-circle lnr-chevron-up-circle");
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
