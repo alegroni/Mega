@@ -2709,7 +2709,7 @@ section.juego {
 .card-objetivo {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  padding: 16px 24px;
+  padding: 16px 12px;
   margin-bottom: 17px;
 }
 
@@ -2746,6 +2746,7 @@ section.juego {
   color: #fff;
   margin: 0;
   width: 100%;
+  margin-left: 16px;
 }
 
 .card-objetivo .points {
@@ -2799,6 +2800,22 @@ section.juego {
   height: 160px;
 }
 
+.tab-negocio.puntaje {
+  margin: 50px auto 10px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.10);
+  border: none;
+}
+
+.tab-negocio.puntaje::after {
+  content: "";
+  background: -webkit-linear-gradient(right, #1fb4fd 0%, #1c6dfc 100%);
+  display: block;
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
 .tab-negocio .body .table {
   margin-bottom: 0;
 }
@@ -2827,6 +2844,7 @@ section.juego {
   font-style: normal;
   font-weight: normal;
   padding: 8px 0;
+  font-size: 10px;
 }
 
 .tab-negocio .body .table table tbody tr {
@@ -2844,16 +2862,13 @@ section.juego {
   line-height: normal;
   text-align: center;
   padding: 10px 8px;
+  font-size: 15px;
 }
 
 .tab-negocio .body .table table tbody tr .td-obj {
   opacity: 0.7;
 }
 
-.tab-negocio .body .table table tbody tr td .value {
-  font-size: 24px;
-  font-weight: 700;
-}
 
 .tab-negocio .body .table table tbody tr td .unit {
   font-size: 16px;
@@ -2871,16 +2886,20 @@ section.juego {
   color: #11b8a5;
 }
 
-.tab-negocio .body .table table tbody tr td i.fa-clock-o {
+.tab-negocio .body .table table tbody i.fa-clock-o {
   color: #86a3c5;
 }
 
-.tab-negocio .body .table table tbody tr td i.fa-times {
+.tab-negocio .body .table table tbody i.fa-times {
   color: #d61087;
 }
 
-.tab-negocio .body .table table tbody tr td i.fa-check {
+.tab-negocio .body .table table tbody i.fa-check {
   color: #10be9f;
+}
+
+.tab-negocio .body .table table tbody i.fa-plus {
+  color: #F8AA00;
 }
 
 .body .table table tbody tr th {
@@ -2892,6 +2911,12 @@ section.juego {
   margin: 5px;
   color: #86a3c5;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+}
+
+.body .table table tbody tr th img {
+  max-width: 48px;
 }
 
 .tab-negocio.detalle-puntos {
@@ -2940,6 +2965,16 @@ section.juego {
 
 .detalle-puntos table tbody tr td:last-child {
   border: none;
+}
+
+.puntaje .body .table table tbody tr th {
+  text-align: left;
+  /* display: flex; */
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #bbbcbf;
+  padding-left: 10px;
+  /* width: 50%; */
 }
 
 /***********__MODAL SUMMER__***********/
@@ -3677,7 +3712,7 @@ header.header-tips h6 {
 }
 
 .sec-tips-int #m1 {
-  top: -66px;
+  top: -86px;
   left: 0;
 }
 
@@ -3962,12 +3997,17 @@ h6 {
     padding-top: 140px;
   }
 
-  .info-negocio .container {
-    max-width: 780px;
+  .tab-negocio .body .table table thead th,
+  .tab-negocio .body .table table thead td {
+    font-size: 14px;
   }
 
-  .tab-negocio .body .table table tbody tr td .value {
-    font-size: 32px;
+  .tab-negocio .body .table table tbody tr th {
+    font-size: 18px;
+  }
+
+  .tab-negocio .body .table table tbody tr td {
+    font-size: 24px;
   }
 
   .tab-negocio .body .table table tbody tr td .unit {
@@ -3976,6 +4016,10 @@ h6 {
 
   .tab-negocio .body .table table tbody tr td {
     padding: 10px 2px;
+  }
+
+  .tab-negocio .body .table table tbody i {
+    margin: 0 20px;
   }
 
   .end-promo h1 {
@@ -4004,7 +4048,7 @@ header.header-tips .container {
 header.header-tips {
   padding-top: 24px;
   padding-bottom: 33px;
-  min-height: 370px;
+  min-height: 270px;
 }
 
 header.header-tips h1 {
